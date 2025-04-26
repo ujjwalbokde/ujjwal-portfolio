@@ -10,36 +10,44 @@ import Link from "next/link"
 
 const projects = [
   {
+    title: "DevConnect",
+    description: "Social media platform for developers to connect and share knowledge",
+    image: "/devconnect.png",
+    tags: ["Next.js", "Express.js", "Supabase"],
+    github: "https://github.com/ujjwalbokde/devconnect",
+    demo: "https://devconnect-dev.vercel.app",
+  },
+  {
     title: "Ujjwal Graphics",
     description: "Business website with portfolio showcase and service listings",
-    image: "/placeholder.svg?height=300&width=500&text=Ujjwal+Graphics",
+    image: "/ug_web.jpg",
     tags: ["React", "Tailwind CSS", "Next.js"],
-    github: "https://github.com/ujjwalbokde/ujjwal-graphics",
+    github: "https://github.com/ujjwalbokde/Ujjwal-Graphics_Website",
     demo: "https://ujjwal-graphics.vercel.app",
   },
   {
     title: "Library Management System",
     description: "Book management CRUD application with user authentication",
-    image: "/placeholder.svg?height=300&width=500&text=Library+Management",
+    image: "/library.png",
     tags: ["MERN Stack", "Express.js", "MongoDB"],
-    github: "https://github.com/ujjwalbokde/library-management",
-    demo: "https://library-management-demo.vercel.app",
+    github: "https://github.com/ujjwalbokde/Library-Management-Project-using-react",
+    demo: "https://github.com/ujjwalbokde/Library-Management-Project-using-react",
   },
   {
     title: "Wandarlust",
     description: "Travel destination discovery platform with interactive maps",
-    image: "/placeholder.svg?height=300&width=500&text=Wandarlust",
+    image: "/wandarlust.png",
     tags: ["React", "Node.js", "MongoDB", "Express"],
-    github: "https://github.com/ujjwalbokde/wandarlust",
-    demo: "https://wandarlust-travel.vercel.app",
+    github: "https://github.com/ujjwalbokde/Mini-Wandarlust",
+    demo: "https://github.com/ujjwalbokde/Mini-Wandarlust",
   },
   {
     title: "Weather Detector",
     description: "Real-time weather forecast application with location search",
-    image: "/placeholder.svg?height=300&width=500&text=Weather+Detector",
+    image: "/weather.jpg",
     tags: ["JavaScript", "Weather API", "CSS3"],
-    github: "https://github.com/ujjwalbokde/weather-detector",
-    demo: "https://weather-detector-app.vercel.app",
+    github: "https://github.com/ujjwalbokde/Weather-API-using-reactjs",
+    demo: "https://ujjwal-weather-detector.vercel.app/",
   },
 ]
 
@@ -86,7 +94,8 @@ export default function Projects() {
             </motion.p>
           </div>
 
-          <motion.div variants={containerVariants} className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <motion.div variants={containerVariants} className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
             {projects.map((project, index) => (
               <motion.div key={project.title} variants={itemVariants}>
                 <Card className="overflow-hidden h-full transition-all duration-300 hover:shadow-lg border-border group">

@@ -5,6 +5,8 @@ import ProjectsCarousel from "@/components/projects-carousel"
 import Education from "@/components/education"
 import Contact from "@/components/contact"
 import ScrollToTop from "@/components/scroll-to-top"
+import Projects from "@/components/projects"
+import LeetCodeStats from "@/components/leetcode"
 
 export default function Home() {
   return (
@@ -12,7 +14,8 @@ export default function Home() {
       <Hero />
       <About />
       <Skills />
-      <ProjectsCarousel />
+      <Projects />
+      <LeetCodeStats/>
       <Education />
       <Contact />
       <ScrollToTop />

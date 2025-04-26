@@ -37,8 +37,7 @@ export default function Hero() {
                 transition={{ duration: 0.5, delay: 0.3 }}
                 className="text-xl md:text-2xl text-muted-foreground"
               >
-                MERN Stack Developer | Tech Enthusiast | Engineering India YCCE
-                Secretary
+                Full-Stack Developer | AI & DSA Enthusiast |<br></br> Secretary @ Engineering India YCCE
               </motion.p>
             </div>
             <motion.p
@@ -124,7 +123,7 @@ export default function Hero() {
                 <span className="sr-only">LinkedIn</span>
               </Link>
               <Link
-                href="https://leetcode.com/ujjwalbokde"
+                href="https://leetcode.com/ujjwal370"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:opacity-80 transition-all"
