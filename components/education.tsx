@@ -7,7 +7,7 @@ import { useEffect, useState } from "react"
 
 const educationTimeline = [
   {
-    year: "20290",
+    year: "2020",
     title: "SSC",
     institution: "Sangita High School",
     description: "Completed Secondary School Certificate with distinction",
