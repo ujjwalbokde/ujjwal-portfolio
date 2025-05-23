@@ -10,6 +10,15 @@ import Link from "next/link"
 
 const projects = [
   {
+  title: "ExpenseWise",
+  description: "A modern expense tracker to manage your income and expenses with ease.",
+  image: "/ExpenseWise.png",
+  tags: ["Next.js", " Supabase", "Tailwind CSS"],
+  github: "https://github.com/ujjwalbokde/expensewise",
+  demo: "https://expensewise-money.vercel.app",
+}
+,
+  {
     title: "DevConnect",
     description: "Social media platform for developers to connect and share knowledge",
     image: "/devconnect.png",
