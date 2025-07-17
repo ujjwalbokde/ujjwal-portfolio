@@ -10,6 +10,14 @@ import Link from "next/link"
 
 const projects = [
   {
+    title: "CivicNivaran",
+    description: "A platform to complainr about civic issues in your locality and get them resolved.",
+    image: "/civicnivaran.jpg",
+    tags: ["Next.js", "Express.js", "MongoDB"],
+    github: "https://github.com/ujjwalbokde/civicnivaran",
+    demo: "https://civicnivaran.vercel.app",
+  },
+  {
   title: "ExpenseWise",
   description: "A modern expense tracker to manage your income and expenses with ease.",
   image: "/ExpenseWise.png",

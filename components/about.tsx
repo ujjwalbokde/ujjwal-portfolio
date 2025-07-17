@@ -53,9 +53,7 @@ export default function About() {
             </motion.div>
 
             <motion.p variants={itemVariants} className="text-lg text-muted-foreground">
-              I&apos;m a passionate MERN Stack Developer and a B.Tech CSE 3rd Year Student at YCCE. With a strong
-              foundation in web development and a keen eye for design, I create responsive and user-friendly
-              applications that solve real-world problems.
+              I'm a passionate Full Stack Developer and a Final Year B.Tech CSE Student at YCCE. With a solid foundation in web development and a keen eye for design, I build responsive and user-friendly applications that solve real-world problems. I'm proficient in Java, Data Structures & Algorithms (DSA), Spring Boot, Next.js, and the MERN stack, enabling me to develop scalable full-stack solutions.
             </motion.p>
 
             <div className="space-y-4">

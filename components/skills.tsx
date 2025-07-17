@@ -21,6 +21,7 @@ const skills = [
       { name: "Node.js", icon: "nodejs" },
       { name: "Express.js", icon: "express" },
       { name: "FastAPI", icon: "fastapi" },
+      { name: "Spring Boot", icon: "spring" },
     ],
   },
   {
@@ -51,6 +52,7 @@ const skillIcons: Record<string, string> = {
   nodejs: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
   express: "/express.png",
   fastapi: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg",
+  spring: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg",
   mongodb: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
   mysql: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
   java: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
