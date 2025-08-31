@@ -10,8 +10,16 @@ import Link from "next/link"
 
 const projects = [
   {
+    title:"TeamSphere",
+    description: "A collaborative platform for teams to manage projects and tasks.",
+    image: "/teamsphere.jpg",
+    tags: ["Next.js", "Spring Boot", "MongoDB"],
+    github: "https://github.com/ujjwalbokde/teamsphere",
+    demo: "https://team-sphere-collab.vercel.app",
+  },
+  {
     title: "CivicNivaran",
-    description: "A platform to complainr about civic issues in your locality and get them resolved.",
+    description: "A platform to complaint about civic issues in your locality and get them resolved.",
     image: "/civicnivaran.jpg",
     tags: ["Next.js", "Express.js", "MongoDB"],
     github: "https://github.com/ujjwalbokde/civicnivaran",
@@ -20,7 +28,7 @@ const projects = [
   {
   title: "ExpenseWise",
   description: "A modern expense tracker to manage your income and expenses with ease.",
-  image: "/ExpenseWise.png",
+  image: "/expense.jpg",
   tags: ["Next.js", " Supabase", "Tailwind CSS"],
   github: "https://github.com/ujjwalbokde/expensewise",
   demo: "https://expensewise-money.vercel.app",
