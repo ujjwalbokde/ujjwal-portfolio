@@ -10,6 +10,14 @@ import Link from "next/link"
 
 const projects = [
   {
+    title:"SymptMeal",
+    description: "AI Powered Symptoms based Full Day Meal Planner",
+    image: "/symptmeal.jpg",
+    tags: ["React.js", "FastAPI", "Supabase", "Gemini AI","Deep Learning"],
+    github: "https://github.com/ujjwalbokde/symptmeal",
+    demo: "https://symptmeal-pro.vercel.app",
+  },
+  {
     title:"TeamSphere",
     description: "A collaborative platform for teams to manage projects and tasks.",
     image: "/teamsphere.jpg",

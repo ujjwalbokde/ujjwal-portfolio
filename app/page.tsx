@@ -7,6 +7,7 @@ import Contact from "@/components/contact"
 import ScrollToTop from "@/components/scroll-to-top"
 import Projects from "@/components/projects"
 import LeetCodeStats from "@/components/leetcode"
+import CertificationsSection from "@/components/certification"
 
 export default function Home() {
   return (
@@ -15,8 +16,9 @@ export default function Home() {
       <About />
       <Skills />
       <Projects />
-      <LeetCodeStats/>
       <Education />
+      <CertificationsSection />
+      <LeetCodeStats/>
       <Contact />
       <ScrollToTop />
     </main>
