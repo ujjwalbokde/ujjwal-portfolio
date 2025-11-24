@@ -12,7 +12,7 @@ const projects = [
   {
     title:"SymptMeal",
     description: "AI Powered Symptoms based Full Day Meal Planner",
-    image: "/symptmeal.jpg",
+    image: "/symptmeal.png",
     tags: ["React.js", "FastAPI", "Supabase", "Gemini AI","Deep Learning"],
     github: "https://github.com/ujjwalbokde/symptmeal",
     demo: "https://symptmeal-pro.vercel.app",
